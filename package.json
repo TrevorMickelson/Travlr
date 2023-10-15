@@ -16,13 +16,14 @@
     "mongoose": "^5.11.15",
     "morgan": "~1.9.1",
     "nodemon": "^3.0.1",
+    "request": "^2.88.2",
     "seedgoose": "^2.0.2"
   },
   "comment": {
     "note": "Use this command for seedgoose -> ./node_modules/.bin/seedgoose seed"
   },
   "seedgoose": {
-    "modelBaseDirectory": "app_server/models",
+    "modelBaseDirectory": "app_api/models",
     "models": [
       "**/*.js",
       "!db.js"
