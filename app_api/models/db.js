@@ -9,6 +9,7 @@ const connect = () => {
   }), 1000);
 }
 
+
 mongoose.connection.on('connected', () => {
   console.log('connected');
 });
